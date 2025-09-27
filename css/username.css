@@ -1,0 +1,47 @@
+    div {
+        background-color: lightgreen;
+        padding: 10px;
+        border: 2px double rgb(143, 143, 196);
+        border-radius: 20px;
+        width: 300px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        /*اخلي كل العناصر تحت في عمود تحت بعضها*/
+        gap: 1rem;
+    }
+    
+    input {
+        flex-wrap: 1;
+    }
+    
+    header {
+        background-color: rgba(235, 55, 1, 0.8);
+        height: 10%;
+        width: 100%;
+        display: flex;
+        padding: 2px;
+        margin-bottom: 2px;
+    }
+    
+    .styl {
+        text-align: center;
+        color: #f3f3f3;
+        font-size: 16px;
+        background-color: rgb(124, 67, 29);
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    nav,
+    a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    
+    .styl:hover {
+        border-radius: 8px;
+        transform: scale(1.1);
+    }

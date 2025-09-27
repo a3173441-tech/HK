@@ -1,0 +1,49 @@
+             header {
+                 background-color: rgba(235, 55, 1, 0.8);
+                 height: 10%;
+                 width: 100%;
+                 display: flex;
+                 padding: 2px;
+                 margin-bottom: 2px;
+             }
+             
+             .styl {
+                 text-align: center;
+                 color: #f3f3f3;
+                 font-size: 16px;
+                 background-color: rgb(124, 67, 29);
+                 margin: 5px;
+                 padding: 5px;
+             }
+             
+             nav,
+             a {
+                 display: inline-block;
+                 text-decoration: none;
+                 padding: 5px;
+                 border-radius: 8px;
+             }
+             
+             .styl:hover {
+                 border-radius: 8px;
+                 transform: scale(1.1);
+             }
+             
+             table {
+                 border-style: 20px solid red;
+                 border-collapse: separate;
+                 margin-right: 20px;
+             }
+             
+             thead td {
+                 border: 8px outset rgb(56, 56, 156);
+                 font-weight: bold;
+             }
+             
+             tbody td {
+                 border: 5px outset rgb(127, 127, 224);
+             }
+             
+             td {
+                 text-align: center;
+             }
